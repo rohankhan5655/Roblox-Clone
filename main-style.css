@@ -1,0 +1,369 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+main {
+  width: 68vw;
+  margin: 75px auto 0px auto;
+  display: flex;
+}
+.section-1 {
+  width: 100%;
+}
+.s1-h {
+  color: white;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+}
+.s1-p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.s1-p p {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 12px;
+  align-self: center;
+}
+.s1-pi {
+  justify-content: center;
+  align-items: center;
+}
+.s1-pi span {
+  font-weight: 600;
+  font-size: 18px;
+}
+.s1-pi:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.frds {
+  display: flex;
+  margin-top: 12px;
+  gap: 12px;
+  overflow-x: auto;
+}
+
+.frd-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  width: 100px; /* Adjusting width to include some space for the paragraph */
+}
+.frd-list:hover {
+  text-decoration: underline white;
+  cursor: pointer;
+}
+.frd-list a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.frd-list img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+.frd-list p {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 2px;
+  text-align: center;
+}
+.todays-p {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.todays-p-c h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+.p-style {
+  font-size: 14px;
+  color: #bdbebe;
+  margin-top: 5px;
+}
+.grid {
+  display: grid;
+
+  grid-template-columns: auto auto auto auto;
+}
+.boxes-1 {
+  width: 100%;
+  position: relative;
+  right: 10px;
+  padding: 12px 10px;
+  transition: background-color 0.1s ease-out 0.2s;
+}
+.boxes-1 img {
+  width: 233px;
+
+  background-color: red;
+  height: 131px;
+  border-radius: 8px;
+}
+.boxes-1 h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  margin-top: 5px;
+}
+.boxes-2 {
+  width: 100%;
+  padding: 12px 10px;
+  position: relative;
+  right: 22px;
+  transition: background-color 0.1s ease-out 0.2s;
+}
+.boxes-2 img {
+  width: 233px;
+
+  height: 131px;
+  border-radius: 8px;
+}
+.boxes-2 h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  margin-top: 5px;
+}
+.boxes-3 {
+  width: 100%;
+  padding: 12px 10px;
+  position: relative;
+  right: 32px;
+  transition: background-color 0.1s ease-out 0.2s;
+}
+.boxes-3 img {
+  width: 233px;
+
+  height: 131px;
+  border-radius: 8px;
+}
+.boxes-3 h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  margin-top: 5px;
+}
+.boxes-4 {
+  width: 100%;
+  padding: 12px 10px;
+  position: relative;
+  right: 42px;
+  transition: background-color 0.1s ease-out 0.2s;
+}
+.boxes-4 img {
+  width: 233px;
+
+  height: 131px;
+  border-radius: 8px;
+}
+.boxes-4 h2 {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+.boxes-1:hover {
+  cursor: pointer;
+  background-color: rgba(206, 206, 206, 0.216);
+  border-radius: 8px;
+}
+.boxes-2:hover {
+  cursor: pointer;
+  background-color: rgba(206, 206, 206, 0.216);
+  border-radius: 8px;
+}
+.boxes-3:hover {
+  cursor: pointer;
+  background-color: rgba(206, 206, 206, 0.216);
+  border-radius: 8px;
+}
+.boxes-4:hover {
+  cursor: pointer;
+  background-color: rgba(206, 206, 206, 0.216);
+  border-radius: 8px;
+}
+.todays-p2 {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.todays-p-c2 h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+.grid2 {
+  display: grid;
+
+  grid-template-columns: auto auto auto auto;
+}
+.boxes-1-2 {
+  width: 100%;
+  position: relative;
+  right: 10px;
+  padding: 12px 10px;
+  transition: background-color 0.1s ease-out 0.2s;
+}
+.boxes-1-2 img {
+  width: 233px;
+
+  background-color: red;
+  height: 131px;
+  border-radius: 8px;
+}
+.boxes-1-2 h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  margin-top: 5px;
+}
+.boxes-2-2 {
+  width: 100%;
+  padding: 12px 10px;
+  position: relative;
+  transition: background-color 0.1s ease-out 0.2s;
+
+  right: 22px;
+}
+.boxes-2-2 img {
+  width: 233px;
+
+  height: 131px;
+  border-radius: 8px;
+}
+.boxes-2-2 h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  margin-top: 5px;
+}
+.boxes-3-2 {
+  width: 100%;
+  padding: 12px 10px;
+  position: relative;
+  transition: background-color 0.1s ease-out 0.2s;
+  right: 32px;
+}
+.boxes-3-2 img {
+  width: 233px;
+
+  height: 131px;
+  border-radius: 8px;
+}
+.boxes-3-2 h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  margin-top: 5px;
+}
+.boxes-4-2 {
+  width: 100%;
+  padding: 12px 10px;
+  position: relative;
+  right: 42px;
+  transition: background-color 0.1s ease-out 0.2s;
+}
+.boxes-4-2 img {
+  width: 233px;
+
+  height: 131px;
+  border-radius: 8px;
+}
+.boxes-4-2 h2 {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+.boxes-1-2:hover {
+  cursor: pointer;
+  background-color: rgba(206, 206, 206, 0.216);
+  border-radius: 8px;
+}
+.boxes-2-2:hover {
+  cursor: pointer;
+  background-color: rgba(206, 206, 206, 0.216);
+  border-radius: 8px;
+}
+.boxes-3-2:hover {
+  cursor: pointer;
+  background-color: rgba(206, 206, 206, 0.216);
+  border-radius: 8px;
+}
+.boxes-4-2:hover {
+  cursor: pointer;
+  background-color: rgba(206, 206, 206, 0.216);
+  border-radius: 8px;
+}
+.bold {
+  font-weight: bolder;
+}
+.flex {
+  display: flex;
+  color: #bdbebe;
+}
+.flex i {
+  position: relative;
+  top: 5px;
+}
+.flex p {
+  margin-left: 4px;
+  font-weight: bolder;
+}
+.c-box {
+  gap: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+}
+.c-boxes {
+  margin-top: 5px;
+}
+.c-boxes img {
+  border-radius: 5px;
+}
+.c-boxes h2 {
+  font-size: 17px;
+  color: white;
+}
+.c-p {
+  display: flex;
+  margin-top: 15px;
+}
+.c-likes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-likes p {
+  margin-left: 3px;
+  font-size: 12px;
+}
+.c-players {
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-players p {
+  margin-left: 2px;
+  font-size: 12px;
+}
+.c-boxes:hover {
+  cursor: pointer;
+}

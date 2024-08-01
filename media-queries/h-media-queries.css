@@ -1,0 +1,85 @@
+/* header Media queary */
+@media (max-width: 781px) {
+  .input input {
+    width: 40vw;
+  }
+}
+@media (min-width: 0px) and (max-width: 663px) {
+  .input {
+    width: 42vw;
+  }
+  .header-end {
+    margin-left: 15px;
+    position: relative;
+  }
+}
+@media (min-width: 564px) and (max-width: 2000px) {
+  .search {
+    display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 563px) {
+  .input input {
+    display: none;
+  }
+
+  .input i {
+    display: none;
+  }
+  .profile p {
+    display: none;
+  }
+  .content span {
+    margin-left: 5px;
+    font-size: 8px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 1031px) {
+  .robux-logo span {
+    display: none;
+  }
+  #header {
+    border-width: 0 0 0px;
+  }
+  .links {
+    display: none;
+  }
+  .input input {
+    width: 50vw;
+  }
+}
+@media (min-width: 1032px) {
+  .mobile {
+    display: none;
+  }
+}
+@media (max-width: 316px) {
+  .robux-logo {
+    position: relative;
+    right: 15px;
+    width: 40px;
+    height: 30px;
+    padding-left: 15px;
+  }
+  .settings {
+    position: relative;
+    right: 18px;
+  }
+  .header-end {
+    position: relative;
+    right: 12px;
+  }
+  .logo {
+    position: relative;
+    right: 6px;
+  }
+  .search {
+    position: relative;
+    right: 5px;
+  }
+  .icon-container {
+    position: relative;
+    right: 7px;
+  }
+}
